@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".WelcomeBoard">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="320dp"
+        android:layout_height="278.05dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/burger"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <TextView
+        android:id="@+id/wob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineHeight="25px"
+        android:text="Welcome on Board!"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="330dp" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineHeight="25px"
+        android:text="Lets help you fulfill your stomach."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textFontWeight="400"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="393dp" />
+
+    <Button
+        android:id="@+id/userBtn"
+        android:layout_width="275dp"
+        android:layout_height="57dp"
+        android:backgroundTint="#D74E22"
+        android:text="User"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="441dp" />
+
+    <Button
+        android:id="@+id/coBtn"
+        android:layout_width="275dp"
+        android:layout_height="57dp"
+        android:backgroundTint="#D74E22"
+        android:text="Cafe Owner"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="518dp" />
+
+    <Button
+        android:id="@+id/adminBtn"
+        android:layout_width="275dp"
+        android:layout_height="57dp"
+        android:backgroundTint="#D74E22"
+        android:text="Admin"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="601dp" />
+
+</LinearLayout>

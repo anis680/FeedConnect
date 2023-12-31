@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "476946183638",
+    "project_id": "feedconnect-86f79",
+    "storage_bucket": "feedconnect-86f79.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476946183638:android:dbc06d76b35e8af046a077",
+        "android_client_info": {
+          "package_name": "com.example.feedconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi5S6FmxMiUhyBlcRNiHnasXh0eQqY6XA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

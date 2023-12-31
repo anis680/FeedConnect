@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FeedConnect</string>
+    <string name="login">Login</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">click to login</string>
+    <string name="click_to_register">click_to_register</string>
+    <string name="button">button</string>
+    <string name="logout">logout</string>
+    <string name="get_started">get started</string>
+</resources>
